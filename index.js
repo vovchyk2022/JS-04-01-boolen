@@ -1,6 +1,7 @@
 let number = 80;
-
-if (number < 0 || number % 2 || number % 4 || number % 7) {
+const divider1 = 4;
+const divider2 = 7;
+if (number < 0 || number % 2 || number % divider1 || number % divider2) {
   console.log("LOSE");
 } else {
   console.log("WIN");
