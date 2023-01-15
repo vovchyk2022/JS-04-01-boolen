@@ -64,10 +64,9 @@ if ((num1 > 0 && num2 > 0) || (num1 < 0 && num2 < 0)) {
 if (num1 === 0 && num2 === 0) {
   res = NaN;
 } else if (num1 === 0 || num2 === 0) {
-res = num1 || num2;
+  res = num1 || num2;
 }
 console.log(res);
-
 
 // Варіант4 - неправильно
 // debugger;
